@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Thaher S | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { brand: { bg: '#0a0a0a', card: '#121212', border: '#222222' } } } } }
+  </script>
+  <style>
+    body { background-color: #0a0a0a; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+    .fade-in { opacity: 0; transform: translateY(12px); transition: opacity 0.5s ease-out, transform 0.5s ease-out; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="antialiased selection:bg-purple-500/30 selection:text-purple-200">
+  <header class="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-brand-border">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-semibold text-lg tracking-tight hover:text-purple-400 transition">Thaher<span class="text-purple-500">.</span></a>
+      <nav class="hidden md:flex space-x-8 text-sm text-neutral-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#hackathons" class="hover:text-white transition">Hackathons</a>
+        <a href="#skills" class="hover:text-white transition">Skills</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-5xl mx-auto px-6 pt-32 pb-20 space-y-28">
+
+  </main>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
