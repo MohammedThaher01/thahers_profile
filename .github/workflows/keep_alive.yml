@@ -1,0 +1,23 @@
+name: Business Hours Keep-Alive Ping
+
+on:
+  schedule:
+    # Runs every 14 minutes from 03:00 to 13:00 UTC (8:30 AM to 6:30 PM IST), Monday through Friday
+    - cron: "*/14 3-13 * * 1-5"
+  workflow_dispatch: # Allows you to run it manually from the GitHub UI if needed
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Trendly (Render)
+        run: curl -sSf https://trendly-agent-1.onrender.com > /dev/null || echo "Trendly ping failed"
+        
+      - name: Ping DocuMind (Railway)
+        run: curl -sSf https://docu-mind.up.railway.app > /dev/null || echo "DocuMind ping failed"
+        
+      - name: Ping Multimodal Vision (Hugging Face)
+        run: curl -sSf https://7haher-multimodal-vision-qa.hf.space > /dev/null || echo "Vision QA ping failed"
+        
+      - name: Ping Doc RAG Chatbot (Streamlit)
+        run: curl -sSf https://doc-rag-chat-bot.streamlit.app > /dev/null || echo "Doc RAG ping failed"
