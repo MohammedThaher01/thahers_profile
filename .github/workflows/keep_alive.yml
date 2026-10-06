@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Trendly (Render)
-        run: curl -sSf https://trendly-agent-1.onrender.com > /dev/null || echo "Trendly ping failed"
+        run: curl -sSf https://trendly-agent-1.onrender.com/ui > /dev/null || echo "Trendly ping failed"
         
       - name: Ping DocuMind (Railway)
         run: curl -sSf https://docu-mind.up.railway.app > /dev/null || echo "DocuMind ping failed"
