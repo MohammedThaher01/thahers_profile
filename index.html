@@ -230,115 +230,115 @@
         <p class="text-xs text-neutral-500 pl-11 pt-1">*Live demos are hosted on free-tier infrastructure. Please allow 30-60 seconds for cold starts outside of standard IST business hours.</p>
       </div>
 
-      <div class="flex flex-col gap-8 pl-0 md:pl-11">
+      <div class="flex flex-col gap-24 pl-0 md:pl-11 pt-8">
         
         <!-- Project 1 -->
-        <div class="rounded-xl border border-brand-border bg-brand-card hover-lift relative z-10 flex flex-col md:flex-row p-6 md:p-8 gap-8 items-center group">
-          <div class="w-full md:w-5/12 relative rounded-xl overflow-hidden border border-neutral-800 shadow-2xl shrink-0 bg-neutral-900/50">
-            <img src="assets/trendly.png" alt="Trendly Project Preview" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium">assets/trendly.png missing</div>
+        <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center group">
+          <div class="w-full md:w-5/12 relative shrink-0">
+            <img src="assets/trendly.png" alt="Trendly Project Preview" class="w-full h-auto rounded-lg border border-neutral-800 shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:border-neutral-700" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium border border-neutral-800 rounded-lg bg-neutral-900/50">assets/trendly.png missing</div>
           </div>
-          <div class="w-full md:w-7/12 flex flex-col space-y-5">
+          <div class="w-full md:w-7/12 flex flex-col space-y-4">
             <div class="flex justify-between items-start">
-              <h3 class="text-xl font-bold text-white">Trendly</h3>
-              <span class="text-xs text-neutral-500">Jul 2026</span>
+              <h3 class="text-2xl font-bold text-white">Trendly</h3>
+              <span class="text-xs text-neutral-500 mt-1">Jul 2026</span>
             </div>
-            <p class="text-sm text-neutral-300 leading-relaxed">
+            <p class="text-base text-neutral-300 leading-relaxed">
               I designed a custom Hybrid ReAct architecture from scratch featuring a Python-native ReAct loop governing a Groq LLM. It includes a parallel deterministic rules engine enforcing 8 business-logic guardrails, such as return window expiry and PII protection. I served the application via async FastAPI with Pydantic validation and implemented comprehensive Pytest suites.
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">FastAPI</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">Groq (Llama3)</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">Pytest</span>
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">FastAPI</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">Groq (Llama3)</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">Pytest</span>
             </div>
             <div class="pt-2">
-              <a href="https://trendly-agent-1.onrender.com/ui" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:underline">
+              <a href="https://trendly-agent-1.onrender.com/ui" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:translate-x-1">
                 View Live Deployment
-                <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </a>
             </div>
           </div>
         </div>
 
         <!-- Project 2 -->
-        <div class="rounded-xl border border-brand-border bg-brand-card hover-lift relative z-10 flex flex-col md:flex-row p-6 md:p-8 gap-8 items-center group">
-          <div class="w-full md:w-5/12 relative rounded-xl overflow-hidden border border-neutral-800 shadow-2xl shrink-0 bg-neutral-900/50">
-            <img src="assets/documind.png" alt="DocuMind Project Preview" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium">assets/documind.png missing</div>
+        <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center group">
+          <div class="w-full md:w-5/12 relative shrink-0">
+            <img src="assets/documind.png" alt="DocuMind Project Preview" class="w-full h-auto rounded-lg border border-neutral-800 shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:border-neutral-700" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium border border-neutral-800 rounded-lg bg-neutral-900/50">assets/documind.png missing</div>
           </div>
-          <div class="w-full md:w-7/12 flex flex-col space-y-5">
+          <div class="w-full md:w-7/12 flex flex-col space-y-4">
             <div class="flex justify-between items-start">
-              <h3 class="text-xl font-bold text-white">DocuMind</h3>
-              <span class="text-xs text-neutral-500">Sep 2026</span>
+              <h3 class="text-2xl font-bold text-white">DocuMind</h3>
+              <span class="text-xs text-neutral-500 mt-1">Sep 2026</span>
             </div>
-            <p class="text-sm text-neutral-300 leading-relaxed">
+            <p class="text-base text-neutral-300 leading-relaxed">
               I engineered a LangGraph state machine with 5 nodes (plan, execute, reflect, revise, export) that classifies 7 document types and generates sections individually. The pipeline runs a self-critique pass that flags timeline inconsistencies and hallucinated figures before exporting a polished .docx file. The React frontend is served from the same async FastAPI process.
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">LangGraph</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">FastAPI</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">React</span>
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">LangGraph</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">FastAPI</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">React</span>
             </div>
             <div class="pt-2">
-              <a href="https://docu-mind.up.railway.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:underline">
+              <a href="https://docu-mind.up.railway.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:translate-x-1">
                 View Live Deployment
-                <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </a>
             </div>
           </div>
         </div>
 
         <!-- Project 3 -->
-        <div class="rounded-xl border border-brand-border bg-brand-card hover-lift relative z-10 flex flex-col md:flex-row p-6 md:p-8 gap-8 items-center group">
-          <div class="w-full md:w-5/12 relative rounded-xl overflow-hidden border border-neutral-800 shadow-2xl shrink-0 bg-neutral-900/50">
-            <img src="assets/vision-qa.png" alt="Multimodal Visual Q&A Preview" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium">assets/vision-qa.png missing</div>
+        <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center group">
+          <div class="w-full md:w-5/12 relative shrink-0">
+            <img src="assets/vision-qa.png" alt="Multimodal Visual Q&A Preview" class="w-full h-auto rounded-lg border border-neutral-800 shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:border-neutral-700" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium border border-neutral-800 rounded-lg bg-neutral-900/50">assets/vision-qa.png missing</div>
           </div>
-          <div class="w-full md:w-7/12 flex flex-col space-y-5">
+          <div class="w-full md:w-7/12 flex flex-col space-y-4">
             <div class="flex justify-between items-start">
-              <h3 class="text-xl font-bold text-white">Multimodal Visual Q&A</h3>
-              <span class="text-xs text-neutral-500">May 2026</span>
+              <h3 class="text-2xl font-bold text-white">Multimodal Visual Q&A</h3>
+              <span class="text-xs text-neutral-500 mt-1">May 2026</span>
             </div>
-            <p class="text-sm text-neutral-300 leading-relaxed">
+            <p class="text-base text-neutral-300 leading-relaxed">
               I built a two-stage pipeline where YOLOv8m extracts spatial metadata across 80 COCO classes, and this structured context is injected into Gemini 1.5 Flash via LangChain for open-ended scene reasoning. CV inference and LLM reasoning are decoupled services behind an async FastAPI backend, deployed with async I/O for non-blocking concurrent requests.
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">YOLOv8</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">Gemini Flash</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">FastAPI</span>
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">YOLOv8</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">Gemini Flash</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">FastAPI</span>
             </div>
             <div class="pt-2">
-              <a href="https://7haher-multimodal-vision-qa.hf.space" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:underline">
+              <a href="https://7haher-multimodal-vision-qa.hf.space" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:translate-x-1">
                 View Live Deployment
-                <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </a>
             </div>
           </div>
         </div>
 
         <!-- Project 4 -->
-        <div class="rounded-xl border border-brand-border bg-brand-card hover-lift relative z-10 flex flex-col md:flex-row p-6 md:p-8 gap-8 items-center group">
-          <div class="w-full md:w-5/12 relative rounded-xl overflow-hidden border border-neutral-800 shadow-2xl shrink-0 bg-neutral-900/50">
-            <img src="assets/doc-rag.png" alt="Doc RAG Chatbot Preview" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium">assets/doc-rag.png missing</div>
+        <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center group">
+          <div class="w-full md:w-5/12 relative shrink-0">
+            <img src="assets/doc-rag.png" alt="Doc RAG Chatbot Preview" class="w-full h-auto rounded-lg border border-neutral-800 shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:border-neutral-700" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="absolute inset-0 hidden items-center justify-center text-neutral-500 text-xs font-medium border border-neutral-800 rounded-lg bg-neutral-900/50">assets/doc-rag.png missing</div>
           </div>
-          <div class="w-full md:w-7/12 flex flex-col space-y-5">
+          <div class="w-full md:w-7/12 flex flex-col space-y-4">
             <div class="flex justify-between items-start">
-              <h3 class="text-xl font-bold text-white">Doc RAG Chatbot</h3>
-              <span class="text-xs text-neutral-500">Apr 2026</span>
+              <h3 class="text-2xl font-bold text-white">Doc RAG Chatbot</h3>
+              <span class="text-xs text-neutral-500 mt-1">Apr 2026</span>
             </div>
-            <p class="text-sm text-neutral-300 leading-relaxed">
+            <p class="text-base text-neutral-300 leading-relaxed">
               I developed a full RAG pipeline with PDF ingestion, a FAISS vector store, and cited answer generation via Llama3 on Groq. I extended this into a LangGraph autonomous agent with 3 tool nodes (retrieve, web search, generate) and a conditional relevance-routing edge for multi-step reasoning.
             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">LangChain</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">FAISS</span>
-              <span class="px-2.5 py-1 rounded-md bg-neutral-800 text-neutral-300 text-xs font-medium border border-neutral-700">Streamlit</span>
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">LangChain</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">FAISS</span>
+              <span class="px-2.5 py-1 rounded-md bg-neutral-900 text-neutral-400 text-xs font-medium border border-neutral-800">Streamlit</span>
             </div>
             <div class="pt-2">
-              <a href="https://doc-rag-chat-bot.streamlit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:underline">
+              <a href="https://doc-rag-chat-bot.streamlit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-red-500 hover:text-red-400 gap-2 transition group-hover:translate-x-1">
                 View Live Deployment
-                <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </a>
             </div>
           </div>
